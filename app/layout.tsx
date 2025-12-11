@@ -76,7 +76,8 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {/* Google AdSense verification */}
-        <meta name="google-adsense-account" content="ca-pub-3481513283483187" />
+        {/* Google AdSense verification */}
+        <meta name="google-adsense-account" content="ca-pub-5228715743284616" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0EA5E9" />
         <meta name="mobile-web-app-capable" content="yes" />
