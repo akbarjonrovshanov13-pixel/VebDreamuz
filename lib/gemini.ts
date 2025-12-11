@@ -90,11 +90,25 @@ Eskirgan 2023-2024 yil ma'lumotlarini ISHLATMA.
 - Markdown formatlash
 - Professional jurnalistik uslub
 
-🎨 RASM PROMPT:
-Maqola uchun giperrealistik raqamli illyustratsiya prompti yoz. Prompt quyidagi uslubda bo'lsin:
-"Giperrealistik raqamli illyustratsiya — ${category} mavzusida sahna. [Mavzuga oid vizual tavsif]. 
-Kinamatografik yoritish, 8k o'lcham, yuqori darajadagi detallashgan teksturalar, 
-professional studiya sifatida, zamonaviy va futuristik atmosfera."
+🎨 RASM PROMPT (AI image generation uchun):
+Maqola mavzusiga mos, professional AI rasm yaratish prompti yoz.
+Har safar TURLI uslublardan birini tanla:
+
+1. **Flat Design**: Minimalist, zamonaviy, geometrik shakllar, gradient ranglar
+2. **3D Render**: Volumetrik, yumshoq soyalar, studio lighting
+3. **Isometric**: 3D isometric ko'rinish, texnik va aniq
+4. **Infographic Style**: Ma'lumot vizualizatsiyasi, grafiklar, diagrammalar
+5. **Tech/Futuristic**: Neon ranglar, holografik, cyberpunk elementlar
+6. **Corporate/Business**: Professional, ofis muhiti, biznes uslub
+7. **Abstract**: Abstrakt shakllar, gradient, dinamik kompozitsiya
+
+Prompt formati:
+"[Uslub nomi] — [sahna tavsifi]. [Rang palitrasi]. [Qo'shimcha detallar]. 
+Professional quality, 4K resolution, clean composition, modern aesthetic."
+
+Misol: "Flat design illustration — laptop ekranida AI chatbot interfeysi. 
+Gradient purple-blue palette. Minimalist icons, soft shadows. 
+Professional quality, modern tech aesthetic."
 
 Javobni quyidagi JSON formatda qaytaring:
 {
