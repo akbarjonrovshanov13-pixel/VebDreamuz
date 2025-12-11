@@ -29,6 +29,7 @@ export const categories = [
   "SEO",
 ];
 
+
 export interface GeneratedContent {
   title: string;
   excerpt: string;
@@ -36,73 +37,74 @@ export interface GeneratedContent {
   seoTitle: string;
   seoDescription: string;
   keywords: string[];
+  imagePrompt: string;
 }
+
+const currentDate = new Date().toLocaleDateString('uz-UZ', { 
+  year: 'numeric', 
+  month: 'long', 
+  day: 'numeric' 
+});
 
 const prompt = (category: string) => `Sen O'zbekistonning yetakchi ${category} bo'yicha professional jurnalist va tahlilchisan.
 O'zbek auditoriyasi uchun yuqori sifatli, chuqur tahliliy va jurnalistik uslubda maqola yoz.
 
-🎯 MAVZU: ${category} sohasida hozirgi kundagi eng dolzarb, muhokama qilinayotgan mavzuni tanla.
+📅 BUGUNGI SANA: ${currentDate} (2025-yil, dekabr)
+⚠️ MUHIM: Faqat 2025-yilning eng so'nggi, dolzarb ma'lumotlaridan foydalanib yoz! 
+Eskirgan 2023-2024 yil ma'lumotlarini ISHLATMA.
 
-📰 JURNALISTIK FORMAT (Albatta quyidagi strukturaga rioya qil):
+🎯 MAVZU: ${category} sohasida 2025-yilning eng dolzarb, eng yangi mavzusini tanla.
+
+📰 JURNALISTIK FORMAT:
 
 1. SARLAVHA (60-80 belgi):
-   - Jurnalistik sarlavha: "Kim nima qildi" yoki "Nima sodir bo'ldi" formatida
-   - Misollar: "O'zbekiston IT sektori 2024-yilda rekord o'sish ko'rsatdi", "Yangi AI startaplar to'lqini: O'zbeklik dasturchilar jahon bozoriga chiqmoqda"
+   - "Kim nima qildi" yoki "Nima sodir bo'ldi" formatida
+   - 2025-yil kontekstida yoz
 
-2. LID/KIRISH QISMI (2-3 gap):
-   - Kim? Nima? Qachon? Qayerda? Nega? - 5W formatida
+2. LID (2-3 gap):
+   - 5W formati: Kim? Nima? Qachon? Qayerda? Nega?
    - Eng muhim faktni birinchi gapda ayt
-   - Misollar: "O'zbekiston Axborot texnologiyalari vazirligi ma'lumotlariga ko'ra, ..."
 
-3. ASOSIY MATN STRUKTURASI:
+3. ASOSIY MATN:
    
    ## Voqea tafsilotlari
-   - Aniq faktlar va raqamlar bilan (masalan: "35% o'sish", "1.2 million foydalanuvchi")
-   - Ekspert fikrlari va iqtiboslar (masalan: *"Bu bizning strategik yo'nalishimiz" - deb ta'kidladi mutaxassis*)
+   - 2025-yilning aniq faktlari va raqamlari
+   - Ekspert fikrlari (ism va lavozim bilan)
    
-   ## Tahlil va kontekst
+   ## Tahlil
    - Nima uchun bu muhim?
    - Qanday oqibatlarga olib keladi?
-   - Oldingi holatlar bilan taqqoslash
    
-   ## Asosiy xulosalar (bullet points)
-   - Asosiy xulosalarni aniq punktlarda yoz:
-     • Birinchi xulosa
-     • Ikkinchi xulosa  
-     • Uchinchi xulosa
-   
-   ## Kelajak istiqbollari
-   - Mutaxassislar prognozi
-   - Kutilayotgan o'zgarishlar
-   - Tavsiyalar
+   ## Xulosalar
+   • Birinchi xulosa
+   • Ikkinchi xulosa  
+   • Uchinchi xulosa
 
-4. XULOSA (1-2 paragraf):
-   - Maqolaning asosiy xulosasi
-   - O'quvchiga qo'shimcha harakatga undov (CTA)
+4. XULOSA (1 paragraf):
+   - Asosiy xulosa va CTA
 
-📝 YOZISH QOIDALARI:
-- Har bir da'vo faktlar bilan asoslansin
-- Raqamlar va statistika ishlatilsin
-- Ekspert fikrlari qo'shilsin (mutaxassis ismlari)
-- Bullet pointlar va ro'yxatlar ishlatilsin
-- Paragraflar qisqa bo'lsin (3-4 gap)
-- Professional jurnalistik uslubda yoz
-- Markdown formatlash: **qalin matn**, *kursiv*, ## sarlavhalar, - ro'yxatlar ishlat
-- Minimum 1000-1500 so'z
+📝 QOIDALAR:
+- 2025-yilning ENG YANGI ma'lumotlari
+- 600-1000 so'z (qisqa va lo'nda)
+- Raqamlar va statistika
+- Markdown formatlash
+- Professional jurnalistik uslub
 
-❌ QILMA:
-- Oddiy qo'llanma yoki "qanday qilish kerak" formatida yozma
-- Umumiy va sayoz mazmun yozma
-- Faktlarsiz da'volar qilma
+🎨 RASM PROMPT:
+Maqola uchun giperrealistik raqamli illyustratsiya prompti yoz. Prompt quyidagi uslubda bo'lsin:
+"Giperrealistik raqamli illyustratsiya — ${category} mavzusida sahna. [Mavzuga oid vizual tavsif]. 
+Kinamatografik yoritish, 8k o'lcham, yuqori darajadagi detallashgan teksturalar, 
+professional studiya sifatida, zamonaviy va futuristik atmosfera."
 
 Javobni quyidagi JSON formatda qaytaring:
 {
   "title": "Jurnalistik sarlavha",
-  "excerpt": "Maqolaning 1-2 gaplik qisqacha mazmuni (lid formati)",
-  "content": "To'liq markdown formatdagi professional maqola",
-  "seoTitle": "SEO uchun sarlavha (60 belgi)",
-  "seoDescription": "SEO uchun tavsif (150-160 belgi)",
-  "keywords": ["kalit1", "kalit2", "kalit3", "kalit4", "kalit5"]
+  "excerpt": "1-2 gaplik qisqacha mazmun",
+  "content": "Markdown formatdagi maqola (600-1000 so'z)",
+  "seoTitle": "SEO sarlavha (60 belgi)",
+  "seoDescription": "SEO tavsif (150-160 belgi)",
+  "keywords": ["kalit1", "kalit2", "kalit3", "kalit4", "kalit5"],
+  "imagePrompt": "Giperrealistik raqamli illyustratsiya — [sahna tavsifi]. Kinamatografik yoritish, 8k o'lcham, yuqori darajadagi detallashgan teksturalar."
 }`;
 
 // Generate content with a specific client and model
