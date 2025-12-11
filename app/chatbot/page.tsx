@@ -17,7 +17,7 @@ export default function ChatbotPage() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "Assalomu alaykum! Men EvolvoAI yordamchi botiman. Sizga qanday yordam bera olaman?",
+      text: "Assalomu alaykum! Men VebDream yordamchi botiman. Sizga qanday yordam bera olaman?",
       sender: "bot",
       timestamp: new Date(),
     },
@@ -71,7 +71,7 @@ export default function ChatbotPage() {
       console.error("Chatbot error:", error);
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: "Xatolik yuz berdi. Telegram bot orqali bog'laning: @evolvoai_bot",
+        text: "Xatolik yuz berdi. Telegram bot orqali bog'laning: @vebdream_bot",
         sender: "bot",
         timestamp: new Date(),
       };
@@ -97,7 +97,7 @@ export default function ChatbotPage() {
             <Bot className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h1 className="text-white font-bold">EvolvoAI Assistant</h1>
+            <h1 className="text-white font-bold">VebDream Assistant</h1>
             <p className="text-xs text-gray-400">Online • AI-powered</p>
           </div>
         </div>

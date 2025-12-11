@@ -20,7 +20,7 @@ model BlogPost {
   seoDescription String
   keywords    String[]
   imageUrl    String
-  author      String   @default("EvolvoAI Team")
+  author      String   @default("VebDream Team")
   publishDate DateTime @default(now())
   readTime    Int      @default(5)
   views       Int      @default(0)

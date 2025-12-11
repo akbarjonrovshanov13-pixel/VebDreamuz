@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import AdminLayout from "@/components/admin/admin-layout";
 
 export const metadata: Metadata = {
-  title: "Bot Sozlamalari - EvolvoAI Admin",
+  title: "Bot Sozlamalari - VebDream Admin",
 };
 
 export default function TelegramBotPage() {

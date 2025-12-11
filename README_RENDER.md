@@ -1,4 +1,4 @@
-# EvolvoAI - Render Deploy
+# VebDream - Render Deploy
 
 Bu loyiha Render.com'ga deploy qilishga tayyor.
 

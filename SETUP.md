@@ -1,4 +1,4 @@
-# EvolvoAI - Quick Setup Guide
+# VebDream - Quick Setup Guide
 
 ## 🚀 Quick Start (5 daqiqada)
 
@@ -12,7 +12,7 @@ npm install
 
 ```env
 # Database (Lokal test uchun - ixtiyoriy)
-DATABASE_URL="postgresql://postgres:password@localhost:5432/evolvoai"
+DATABASE_URL="postgresql://postgres:password@localhost:5432/vebdream"
 
 # Gemini AI (MAJBURIY)
 GEMINI_API_KEY="sizning_gemini_api_key"
@@ -47,7 +47,7 @@ CRON_SECRET="random_cron_secret_456"
 #### Telegram Channel ID
 1. Telegram'da kanal yarating
 2. Botni kanalga admin qiling
-3. Kanal username'ini `.env` ga kiriting (masalan: `@evolvoai_channel`)
+3. Kanal username'ini `.env` ga kiriting (masalan: `@vebdream_channel`)
 
 ### 4. Database sozlash (Ixtiyoriy - keyinroq ham qilish mumkin)
 ```bash
@@ -120,4 +120,4 @@ Telegram'da botingizga `/start` yuboring
 - ⭕ Database (keyinroq)
 - ⭕ Telegram (keyinroq)
 
-Savol bo'lsa: info@evolvoai.uz
+Savol bo'lsa: info@vebdream.uz

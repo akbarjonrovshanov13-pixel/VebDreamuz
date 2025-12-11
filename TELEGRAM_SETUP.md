@@ -1,6 +1,6 @@
 # Telegram Bot va Kanal Sozlash Qo'llanmasi
 
-**EvolvoAI** loyihasi Telegram bilan chuqur integratsiya qilingan. Bu ikkita narsani anglatadi:
+**VebDream** loyihasi Telegram bilan chuqur integratsiya qilingan. Bu ikkita narsani anglatadi:
 1. **Telegram Bot:** Saytdan kelgan xabarlarni (contact form) sizga yetkazadi.
 2. **Telegram Kanal:** Saytda yangi maqola chiqsa, avtomatik kanalga joylaydi.
 
@@ -12,8 +12,8 @@ Ushbu funksiyalarni ishga tushirish uchun `.env` faylini to'ldirish kerak.
 
 1. Telegramda **[@BotFather](https://t.me/BotFather)** ni qidiring va kiring.
 2. `/newbot` buyrug'ini yuboring.
-3. Botga ism bering (masalan: `EvolvoAI Bot`).
-4. Botga username bering (oxiri `bot` bilan tugashi shart, masalan: `evolvoai_uz_bot`).
+3. Botga ism bering (masalan: `VebDream Bot`).
+4. Botga username bering (oxiri `bot` bilan tugashi shart, masalan: `vebdream_uz_bot`).
 5. BotFather sizga **TOKEN** beradi (masalan: `7123456789:AAF...`).
 6. Ushbu tokenni nusxalab oling.
 
@@ -47,7 +47,7 @@ Agar saytga chiqqan maqolalar kanalingizga ham chiqishini istasangiz:
 
 1. O'z kanalingizga yarating yoki boriga kiring.
 2. Yuqorida yaratgan **Botingizni kanalga Admin qiling** (buning uchun kanal sozlamalariga kirib, Administrators bo'limidan botni qo'shasiz).
-3. Kanalning linkini (username) oling (masalan: `@evolvoai_news`).
+3. Kanalning linkini (username) oling (masalan: `@vebdream_news`).
 
 **Loyiha sozlamasi:**
 `.env` faylida `TELEGRAM_CHANNEL_ID` ga yozing:

@@ -1,6 +1,6 @@
-# EvolvoAI - VPS Deploy Guide (Beget/Ubuntu)
+# VebDream - VPS Deploy Guide (Beget/Ubuntu)
 
-Ushbu qo'llanma orqali **EvolvoAI** loyihasini **Beget VPS** yoki har qanday **Ubuntu** serveriga deploy qilishingiz mumkin.
+Ushbu qo'llanma orqali **VebDream** loyihasini **Beget VPS** yoki har qanday **Ubuntu** serveriga deploy qilishingiz mumkin.
 
 ## 1. Serverni Tayyorlash
 
@@ -26,9 +26,9 @@ Database va foydalanuvchi yaratish:
 sudo -u postgres psql
 
 # SQL ichida:
-CREATE DATABASE evolvoai;
-CREATE USER evolvoai_user WITH ENCRYPTED PASSWORD 'kuchli_parol_yozing';
-GRANT ALL PRIVILEGES ON DATABASE evolvoai TO evolvoai_user;
+CREATE DATABASE vebdream;
+CREATE USER vebdream_user WITH ENCRYPTED PASSWORD 'kuchli_parol_yozing';
+GRANT ALL PRIVILEGES ON DATABASE vebdream TO vebdream_user;
 \q
 ```
 
@@ -40,8 +40,8 @@ sudo apt install git -y
 
 # Loyihani klonlash
 cd /var/www
-git clone https://github.com/optimbazar-ai/evolvoai.git
-cd evolvoai
+git clone https://github.com/optimbazar-ai/vebdream.git
+cd vebdream
 
 # Dependency'larni o'rnatish
 npm install
@@ -56,7 +56,7 @@ nano .env
 
 Quyidagilarni yozing (o'zingizning ma'lumotlaringiz bilan):
 ```env
-DATABASE_URL="postgresql://evolvoai_user:kuchli_parol_yozing@localhost:5432/evolvoai"
+DATABASE_URL="postgresql://vebdream_user:kuchli_parol_yozing@localhost:5432/vebdream"
 NEXTAUTH_URL="http://sizning-domeningiz.com"
 NEXTAUTH_SECRET="uzun_random_string"
 GEMINI_API_KEY="sizning_gemini_key"
@@ -109,7 +109,7 @@ sudo apt install nginx -y
 
 Config fayl yaratish:
 ```bash
-sudo nano /etc/nginx/sites-available/evolvoai
+sudo nano /etc/nginx/sites-available/vebdream
 ```
 
 Ichiga quyidagini yozing:
@@ -131,7 +131,7 @@ server {
 
 Site ni faollashtirish:
 ```bash
-sudo ln -s /etc/nginx/sites-available/evolvoai /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/vebdream /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl restart nginx
 ```
@@ -151,6 +151,6 @@ Endi saytingiz `https://sizning-domeningiz.com` manzilida ishlaydi.
 
 ### Foydali Buyruqlar:
 
-- Loglarni ko'rish: `pm2 logs evolvoai`
-- Restart berish: `pm2 restart evolvoai`
-- To'xtatish: `pm2 stop evolvoai`
+- Loglarni ko'rish: `pm2 logs vebdream`
+- Restart berish: `pm2 restart vebdream`
+- To'xtatish: `pm2 stop vebdream`

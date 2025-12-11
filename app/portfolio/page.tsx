@@ -7,7 +7,7 @@ import Image from "next/image";
 import { ExternalLink, Github, Eye } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Portfolio - EvolvoAI",
+  title: "Portfolio - VebDream",
   description: "Bizning bajarilgan loyihalar portfoliosi",
 };
 

@@ -10,7 +10,7 @@ export async function GET() {
       status: "ok",
       timestamp: new Date().toISOString(),
       database: "connected",
-      service: "EvolvoAI",
+      service: "VebDream",
     });
   } catch (error) {
     return NextResponse.json(

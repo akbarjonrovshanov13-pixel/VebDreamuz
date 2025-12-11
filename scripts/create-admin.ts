@@ -8,7 +8,7 @@ const prisma = new PrismaClient();
 async function main() {
   console.log("🔐 Admin foydalanuvchi yaratilmoqda...\n");
 
-  const email = "admin@evolvoai.uz";
+  const email = "admin@vebdream.uz";
   const password = "admin123"; // O'zingizni parolingizni kiriting!
   const name = "Admin";
 

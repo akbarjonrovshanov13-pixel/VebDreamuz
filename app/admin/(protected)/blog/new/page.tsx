@@ -3,7 +3,7 @@ import AdminLayout from "@/components/admin/admin-layout";
 import BlogEditor from "@/components/admin/blog/blog-editor";
 
 export const metadata: Metadata = {
-  title: "Yangi Post - EvolvoAI Admin",
+  title: "Yangi Post - VebDream Admin",
   description: "Create new blog post",
 };
 

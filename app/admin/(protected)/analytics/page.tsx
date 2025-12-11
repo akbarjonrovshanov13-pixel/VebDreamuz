@@ -5,7 +5,7 @@ import { prisma } from "@/lib/prisma";
 import { TrendingUp, Eye, FileText, MessageSquare } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Analytics - EvolvoAI Admin",
+  title: "Analytics - VebDream Admin",
   description: "Website analytics",
 };
 

@@ -3,7 +3,7 @@ import AdminLayout from "@/components/admin/admin-layout";
 import BlogTable from "@/components/admin/blog/blog-table";
 
 export const metadata: Metadata = {
-  title: "Blog Management - EvolvoAI Admin",
+  title: "Blog Management - VebDream Admin",
   description: "Manage blog posts",
 };
 

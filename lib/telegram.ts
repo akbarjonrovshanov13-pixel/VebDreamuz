@@ -81,7 +81,7 @@ export async function notifySubscribers(message: TelegramMessage): Promise<void>
 
 function formatBlogPostMessage(message: TelegramMessage): string {
   const emoji = getCategoryEmoji(message.category || "");
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://evolvoai-ysus.onrender.com";
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://vebdream-ysus.onrender.com";
   
   let formatted = `${emoji} <b>${message.title}</b>\n\n`;
   formatted += `${message.content}\n\n`;
@@ -91,7 +91,7 @@ function formatBlogPostMessage(message: TelegramMessage): string {
   }
   
   if (message.category) {
-    formatted += `#${message.category} #EvolvoAI`;
+    formatted += `#${message.category} #VebDream`;
   }
   
   return formatted;
@@ -121,7 +121,7 @@ export function setupBotCommands(): void {
   // /start command
   bot.command("start", async (ctx: Context) => {
     await ctx.reply(
-      `👋 Xush kelibsiz! EvolvoAI Bot ga!\n\n` +
+      `👋 Xush kelibsiz! VebDream Bot ga!\n\n` +
       `Biz AI texnologiyalari bilan biznesingizni avtomatlashtiramiz.\n\n` +
       `📌 Mavjud buyruqlar:\n` +
       `/subscribe - Yangi postlarga obuna bo'lish 🔔\n` +
@@ -130,7 +130,7 @@ export function setupBotCommands(): void {
       `/services - Xizmatlar ro'yxati\n` +
       `/contact - Aloqa ma'lumotlari\n` +
       `/help - Yordam\n\n` +
-      `💡 Inline rejim: @evolvoai_bot <qidiruv> yozing`,
+      `💡 Inline rejim: @vebdream_bot <qidiruv> yozing`,
       {
         reply_markup: {
           keyboard: [
@@ -249,7 +249,7 @@ export function setupBotCommands(): void {
         return;
       }
 
-      const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://evolvoai-ysus.onrender.com";
+      const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://vebdream-ysus.onrender.com";
       const emoji = getCategoryEmoji(post.category);
 
       const message = 
@@ -257,7 +257,7 @@ export function setupBotCommands(): void {
         `${emoji} <b>${post.title}</b>\n\n` +
         `${post.excerpt}\n\n` +
         `🔗 <a href="${baseUrl}/blog/${post.slug}">To'liq o'qish</a>\n\n` +
-        `#${post.category} #EvolvoAI`;
+        `#${post.category} #VebDream`;
 
       if (post.imageUrl) {
         await ctx.replyWithPhoto(post.imageUrl, {
@@ -293,7 +293,7 @@ export function setupBotCommands(): void {
       `   - Workflow optimization\n` +
       `   - API integratsiya\n` +
       `   - Custom solutions\n\n` +
-      `📞 Batafsil: @evolvoai`,
+      `📞 Batafsil: @vebdream`,
       { parse_mode: "HTML" }
     );
   });
@@ -305,7 +305,7 @@ export function setupBotCommands(): void {
       `📧 Email: azizbekboy84@gmail.com\n` +
       `📱 Telefon: +998 99 644 84 44\n` +
       `🏠 Manzil: Toshkent, Nurafshon aylanma yo'li 12 uy\n` +
-      `💬 Telegram: @evolvoai\n\n` +
+      `💬 Telegram: @vebdream\n\n` +
       `Biz bilan bog'laning va loyihangizni muhokama qilamiz!`,
       { parse_mode: "HTML" }
     );
@@ -322,7 +322,7 @@ export function setupBotCommands(): void {
       `/services - Xizmatlar\n` +
       `/contact - Aloqa\n\n` +
       `<b>Inline rejim:</b>\n` +
-      `Istalgan chatda @evolvoai_bot so'z yozing va postlarni qidiring!`,
+      `Istalgan chatda @vebdream_bot so'z yozing va postlarni qidiring!`,
       { parse_mode: "HTML" }
     );
   });
@@ -369,7 +369,7 @@ export function setupBotCommands(): void {
         });
         const post = posts[0];
         if (post) {
-          const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://evolvoai-ysus.onrender.com";
+          const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://vebdream-ysus.onrender.com";
           const msg = `🎲 <b>${post.title}</b>\n\n${post.excerpt}\n\n🔗 <a href="${baseUrl}/blog/${post.slug}">O'qish</a>`;
           if (post.imageUrl) {
             await ctx.replyWithPhoto(post.imageUrl, { caption: msg, parse_mode: "HTML" });
@@ -418,14 +418,14 @@ export function setupBotCommands(): void {
         });
       }
 
-      const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://evolvoai-ysus.onrender.com";
+      const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://vebdream-ysus.onrender.com";
 
       const results = posts.map((post) => {
         const messageText = 
           `${getCategoryEmoji(post.category)} <b>${post.title}</b>\n\n` +
           `${post.excerpt}\n\n` +
           `🔗 <a href="${baseUrl}/blog/${post.slug}">To'liq o'qish</a>\n\n` +
-          `#${post.category} #EvolvoAI`;
+          `#${post.category} #VebDream`;
 
         return InlineQueryResultBuilder.article(post.id, post.title, {
           description: post.excerpt.substring(0, 100) + "...",
@@ -467,13 +467,13 @@ async function handleAIMessage(ctx: Context, userMessage: string): Promise<void>
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
-    const systemPrompt = `Sen EvolvoAI kompaniyasining AI assistentisan. 
+    const systemPrompt = `Sen VebDream kompaniyasining AI assistentisan. 
     
 Kompaniya haqida:
-- EvolvoAI - O'zbekistonda AI va web development xizmatlari
+- VebDream - O'zbekistonda AI va web development xizmatlari
 - Xizmatlar: Web saytlar, Telegram botlar, AI chatbotlar, biznes avtomatlashtirish
 - Telefon: +998 99 644 84 44
-- Telegram: @evolvoaichannel (kanal), @evolvoai_bot (bot)
+- Telegram: @vebdreamchannel (kanal), @vebdream_bot (bot)
 - Email: azizbekboy84@gmail.com
 - Manzil: Toshkent, Nurafshon aylanma yo'li 12 uy
 
@@ -500,7 +500,7 @@ Foydalanuvchi savoli:`;
     await ctx.reply(
       "❌ Kechirasiz, hozir javob bera olmadim.\n\n" +
       "📞 Aloqa: +998 99 644 84 44\n" +
-      "💬 Telegram: @evolvoaichannel"
+      "💬 Telegram: @vebdreamchannel"
     );
   }
 }

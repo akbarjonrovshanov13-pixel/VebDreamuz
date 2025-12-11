@@ -1,5 +1,5 @@
 {
-  "name": "evolvoai",
+  "name": "vebdream",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,9 @@
     "build": "next build && tsc server.ts --outDir . --module commonjs --esModuleInterop --resolveJsonModule --skipLibCheck",
     "start": "node server.js",
     "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "postinstall": "prisma generate",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
@@ -58,12 +61,19 @@
     "zustand": "^4.5.5"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
     "@types/bcryptjs": "^2.4.6",
+    "@types/jest": "^30.0.0",
     "@types/node": "^22.18.7",
     "@types/node-cron": "^3.0.11",
     "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
     "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.13"
+    "eslint-config-next": "14.2.13",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "ts-jest": "^29.4.6"
   }
 }

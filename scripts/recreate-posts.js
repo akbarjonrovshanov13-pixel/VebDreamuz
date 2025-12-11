@@ -78,11 +78,11 @@ ${postData.title} mavzusi juda muhim va dolzarb. Bu bilimlarni amalda qo'llash o
 
 ---
 
-**EvolvoAI** - Professional AI yechimlar va web dasturlash xizmatlari.`,
-          seoTitle: postData.title + " - EvolvoAI Blog",
+**VebDream** - Professional AI yechimlar va web dasturlash xizmatlari.`,
+          seoTitle: postData.title + " - VebDream Blog",
           seoDescription: postData.excerpt,
-          keywords: [postData.category.toLowerCase(), "texnologiya", "evolvoai", "blog"],
-          author: "EvolvoAI Team",
+          keywords: [postData.category.toLowerCase(), "texnologiya", "vebdream", "blog"],
+          author: "VebDream Team",
           readTime: 7,
           status: "PUBLISHED",
         },

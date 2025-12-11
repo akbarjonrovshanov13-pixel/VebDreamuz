@@ -6,7 +6,7 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 
 export const metadata: Metadata = {
-  title: "Portfolio - EvolvoAI Admin",
+  title: "Portfolio - VebDream Admin",
   description: "Manage portfolio projects",
 };
 

@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
         seoDescription: body.seoDescription,
         keywords: body.keywords,
         imageUrl: body.imageUrl,
-        author: body.author || "EvolvoAI Team",
+        author: body.author || "VebDream Team",
         readTime: body.readTime,
         status: body.status || "DRAFT",
       },

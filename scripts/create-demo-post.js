@@ -50,14 +50,14 @@ Gemini AI O'zbekistonda biznes jarayonlarini avtomatlashtirish uchun juda yaxshi
 
 ## Xulosa
 
-Gemini AI - bu zamonaviy bizneslar uchun kuchli vosita. **EvolvoAI** jamoasi Gemini'ni loyihalaringizga integratsiya qilishda yordam beradi!
+Gemini AI - bu zamonaviy bizneslar uchun kuchli vosita. **VebDream** jamoasi Gemini'ni loyihalaringizga integratsiya qilishda yordam beradi!
 
 ---
 
 📞 **Bepul konsultatsiya:** +998 90 123 45 67`,
-    seoTitle: "Gemini AI: Google Sun'iy Intellekt | EvolvoAI",
+    seoTitle: "Gemini AI: Google Sun'iy Intellekt | VebDream",
     seoDescription: "Google Gemini AI haqida to'liq ma'lumot. Multimodal AI, imkoniyatlar, narxlar va O'zbekistonda qo'llash. Professional integratsiya xizmati.",
-    keywords: ["Gemini AI", "Google AI", "multimodal AI", "chatbot", "O'zbekiston", "EvolvoAI"],
+    keywords: ["Gemini AI", "Google AI", "multimodal AI", "chatbot", "O'zbekiston", "VebDream"],
     imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop",
     readTime: 4,
     status: "PUBLISHED",

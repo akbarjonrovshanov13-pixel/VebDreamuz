@@ -1,4 +1,4 @@
-# 🎉 EvolvoAI - Project Summary
+# 🎉 VebDream - Project Summary
 
 ## ✅ Yaratilgan Funksiyalar
 
@@ -246,8 +246,8 @@ npm run bot:start
 ## 📞 Support
 
 ### Savol bo'lsa:
-- 📧 Email: info@evolvoai.uz
-- 💬 Telegram: @evolvoai
+- 📧 Email: info@vebdream.uz
+- 💬 Telegram: @vebdream
 - 📱 Telefon: +998 90 123 45 67
 
 ### Muammolar:

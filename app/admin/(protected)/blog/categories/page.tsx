@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import AdminLayout from "@/components/admin/admin-layout";
 
 export const metadata: Metadata = {
-  title: "Blog Kategoriyalar - EvolvoAI Admin",
+  title: "Blog Kategoriyalar - VebDream Admin",
 };
 
 export default function BlogCategoriesPage() {

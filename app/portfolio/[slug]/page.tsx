@@ -23,13 +23,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 
     return {
-      title: `${project.title} - EvolvoAI Portfolio`,
+      title: `${project.title} - VebDream Portfolio`,
       description: project.description,
     };
   } catch (error) {
     console.error("Error fetching project metadata (using mock data):", error);
     return {
-      title: "Portfolio Item - EvolvoAI",
+      title: "Portfolio Item - VebDream",
     };
   }
 }

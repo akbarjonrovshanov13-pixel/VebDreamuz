@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: evolvoai
+    name: vebdream
     env: node
     plan: free
     buildCommand: npm install && npm run build
@@ -10,7 +10,7 @@ services:
         value: production
       - key: DATABASE_URL
         fromDatabase:
-          name: evolvoai-db
+          name: vebdream-db
           property: connectionString
       - key: NEXTAUTH_URL
         sync: false
@@ -34,8 +34,8 @@ services:
         sync: false
 
 databases:
-  - name: evolvoai-db
+  - name: vebdream-db
     plan: free
-    databaseName: evolvoai
-    user: evolvoai
+    databaseName: vebdream
+    user: vebdream
 

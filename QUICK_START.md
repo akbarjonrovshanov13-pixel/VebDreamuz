@@ -28,7 +28,7 @@ GEMINI_API_KEY="sizning_gemini_key"
 TELEGRAM_BOT_TOKEN="sizning_bot_token"
 
 # Database (keyinroq qo'shish mumkin)
-DATABASE_URL="postgresql://postgres:password@localhost:5432/evolvoai"
+DATABASE_URL="postgresql://postgres:password@localhost:5432/vebdream"
 
 # Boshqalar
 NEXTAUTH_SECRET="random123"

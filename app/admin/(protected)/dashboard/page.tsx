@@ -6,7 +6,7 @@ import QuickActions from "@/components/admin/dashboard/quick-actions";
 import Analytics from "@/components/admin/dashboard/analytics";
 
 export const metadata: Metadata = {
-  title: "Dashboard - EvolvoAI Admin",
+  title: "Dashboard - VebDream Admin",
   description: "Admin dashboard overview",
 };
 

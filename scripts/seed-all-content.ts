@@ -33,8 +33,8 @@ Kompyuterlarga inson tilini tushunish va qayta ishlash imkonini beradi.
 - **Ta'lim**: Shaxsiylashtirilgan o'qitish
 - **Transport**: Avtopilot tizimlari
 
-**EvolvoAI** jamoasi sifatida biz sizga AI yechimlarini biznesingizga integratsiya qilishda yordam beramiz!`,
-    seoTitle: "Sun'iy Intellekt (AI): Kelajak Teen texnologiyasi | EvolvoAI",
+**VebDream** jamoasi sifatida biz sizga AI yechimlarini biznesingizga integratsiya qilishda yordam beramiz!`,
+    seoTitle: "Sun'iy Intellekt (AI): Kelajak Teen texnologiyasi | VebDream",
     seoDescription:
       "Sun'iy intellekt nima? AI qanday ishlaydi va biznesda qanday qo'llaniladi? Machine Learning va Deep Learning haqida ma'lumot.",
     keywords: [
@@ -74,8 +74,8 @@ Mijozlar bilan barcha munosabatlarni boshqarish.
 ### 4. Telegram Bot
 Biznes jarayonlarini Telegram orqali boshqarish.
 
-**EvolvoAI** sizga biznes jarayonlaringizni avtomatlashtirishda yordam beradi!`,
-    seoTitle: "Biznesni Avtomatlashtirish: To'liq Qo'llanma | EvolvoAI",
+**VebDream** sizga biznes jarayonlaringizni avtomatlashtirishda yordam beradi!`,
+    seoTitle: "Biznesni Avtomatlashtirish: To'liq Qo'llanma | VebDream",
     seoDescription:
       "Biznes jarayonlarini qanday avtomatlashtirish mumkin? CRM, chatbot, Telegram bot va marketing avtomatlashtirish yechimlar.",
     keywords: [
@@ -114,8 +114,8 @@ export default function Home() {
 }
 \`\`\`
 
-**EvolvoAI** Next.js yordamida professional web saytlar yaratadi!`,
-    seoTitle: "Next.js: Zamonaviy Web Sayt Yaratish | EvolvoAI",
+**VebDream** Next.js yordamida professional web saytlar yaratadi!`,
+    seoTitle: "Next.js: Zamonaviy Web Sayt Yaratish | VebDream",
     seoDescription:
       "Next.js framework bilan SEO-optimallashtirilgan, tez va zamonaviy web saytlar yaratish. Server-side rendering va API routes.",
     keywords: [
@@ -157,8 +157,8 @@ Telegram - O'zbekistonda eng mashhur messenger. Bot orqali biznesingizni avtomat
 - Vazifalar bosh qaruvi
 - Hisobotlar
 
-**EvolvoAI** sizga professional Telegram bot yaratib beradi!`,
-    seoTitle: "Telegram Bot Yaratish: Biznes Avtomatlashtirish | EvolvoAI",
+**VebDream** sizga professional Telegram bot yaratib beradi!`,
+    seoTitle: "Telegram Bot Yaratish: Biznes Avtomatlashtirish | VebDream",
     seoDescription:
       "Telegram bot orqali savdo, xizmat va mijozlar bilan aloqani avtomatlashtiring. Click/Payme integratsiya, katalog va buyurtma tizimi.",
     keywords: [
@@ -200,8 +200,8 @@ SEO (Search Engine Optimization) - bu saytingizni qidiruv tizimlarida yuqori o'r
 - **Social signals**: Ijtimoiy tarmoqlar
 - **Local SEO**: Mahalliy qidiruv
 
-**EvolvoAI** saytingizni SEO bo'yicha to'liq optimallashtirisadi!`,
-    seoTitle: "SEO Optimizatsiya: Google'da TOP ga Chiqish | EvolvoAI",
+**VebDream** saytingizni SEO bo'yicha to'liq optimallashtirisadi!`,
+    seoTitle: "SEO Optimizatsiya: Google'da TOP ga Chiqish | VebDream",
     seoDescription:
       "Professional SEO xizmatlari. On-page, technical va off-page SEO. Saytingizni Google'da yuqori o'rinlarga chiqaring.",
     keywords: [
@@ -255,8 +255,8 @@ Mobil ilovalar - bu zamonaviy biznesning muhim qismi.
 - Messaging
 - Notifications
 
-**EvolvoAI** professional mobil ilovalar yaratadi!`,
-    seoTitle: "Mobil Ilova Yaratish: iOS va Android | EvolvoAI",
+**VebDream** professional mobil ilovalar yaratadi!`,
+    seoTitle: "Mobil Ilova Yaratish: iOS va Android | VebDream",
     seoDescription:
       "Professional mobil ilovalar yaratish xizmati. React Native va Flutter. E-commerce, xizmatlar va ijtimoiy ilovalar.",
     keywords: [
@@ -306,8 +306,8 @@ AI chatbotlar - bu mijozlar bilan muloqotni yangi bosqichga olib chiqadi.
 - Ko'p mijozni bir vaqtda xizmat qiladi
 - Vaqt va xarajatni tejaydi
 
-**EvolvoAI** GPT-4 asosida professional chatbotlar yaratadi!`,
-    seoTitle: "AI Chatbot va ChatGPT: Biznes Uchun | EvolvoAI",
+**VebDream** GPT-4 asosida professional chatbotlar yaratadi!`,
+    seoTitle: "AI Chatbot va ChatGPT: Biznes Uchun | VebDream",
     seoDescription:
       "GPT-4 asosida aqlli chatbotlar. 24/7 mijozlar bilan suhbat, avtomatik javoblar, CRM integratsiya. O'zbekiston.",
     keywords: [
@@ -365,8 +365,8 @@ Hamma uchun qulay.
 - **3D Elements**: Uch o'lchovli grafikalar
 - **Microinteractions**: Kichik animatsiyalar
 
-**EvolvoAI** professional UI/UX dizayn xizmatlari!`,
-    seoTitle: "UI/UX Dizayn Xizmatlari: Professional Interfeys | EvolvoAI",
+**VebDream** professional UI/UX dizayn xizmatlari!`,
+    seoTitle: "UI/UX Dizayn Xizmatlari: Professional Interfeys | VebDream",
     seoDescription:
       "Modern UI/UX dizayn. Foydalanuvchilarga yoqadigan, samarali va chiroyli interfeys yaratish. Web va mobil ilovalar uchun.",
     keywords: ["UI dizayn", "UX dizayn", "interfeys", "dizayn", "O'zbekiston"],
@@ -383,7 +383,7 @@ const projects = [
     tags: ["Next.js", "E-commerce", "Click", "Payme", "Telegram Bot"],
     imageUrl:
       "https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&h=800&fit=crop",
-    demoUrl: "https://evolvoai.uz",
+    demoUrl: "https://vebdream.uz",
     technologies: [
       "Next.js 14",
       "TypeScript",
@@ -483,7 +483,7 @@ async function seedContent() {
       const created = await prisma.blogPost.create({
         data: {
           ...post,
-          author: "EvolvoAI Team",
+          author: "VebDream Team",
           readTime: Math.ceil(post.content.split(" ").length / 200),
           status: "PUBLISHED" as PostStatus,
         },

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import AdminLayout from "@/components/admin/admin-layout";
 
 export const metadata: Metadata = {
-  title: "Telegram Chat - EvolvoAI Admin",
+  title: "Telegram Chat - VebDream Admin",
   description: "Telegram messages",
 };
 

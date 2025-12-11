@@ -1,6 +1,6 @@
-# EvolvoAI - Render.com Deploy Guide
+# VebDream - Render.com Deploy Guide
 
-Ushbu qo'llanma orqali **EvolvoAI** loyihasini **Render.com** ga bepul deploy qilishingiz mumkin.
+Ushbu qo'llanma orqali **VebDream** loyihasini **Render.com** ga bepul deploy qilishingiz mumkin.
 
 ## 1. Tayyorgarlik
 
@@ -12,8 +12,8 @@ Ushbu qo'llanma orqali **EvolvoAI** loyihasini **Render.com** ga bepul deploy qi
 Biz loyihada `render.yaml` faylini yaratdik, bu jarayonni avtomatlashtiradi.
 
 1. Render Dashboard da **"New +"** tugmasini bosing va **"Blueprint"** ni tanlang.
-2. **"Connect a repository"** bo'limida GitHub dagi `evolvoai` repozitoriyangizni tanlang.
-3. **"Service Name"** ga nom bering (masalan: `evolvoai-app`).
+2. **"Connect a repository"** bo'limida GitHub dagi `vebdream` repozitoriyangizni tanlang.
+3. **"Service Name"** ga nom bering (masalan: `vebdream-app`).
 4. **"Apply"** tugmasini bosing.
 
 Render avtomatik ravishda:
@@ -25,7 +25,7 @@ Render avtomatik ravishda:
 
 Blueprint yaratilgandan so'ng, ba'zi maxfiy kalitlarni qo'lda kiritish kerak bo'ladi.
 
-1. Render Dashboard da **evolvoai** web service'iga kiring.
+1. Render Dashboard da **vebdream** web service'iga kiring.
 2. **"Environment"** bo'limiga o'ting.
 3. Quyidagi o'zgaruvchilarni tekshiring va to'ldiring:
 

@@ -9,7 +9,7 @@ interface PageProps {
 }
 
 export const metadata: Metadata = {
-  title: "Loyihani Tahrirlash - EvolvoAI Admin",
+  title: "Loyihani Tahrirlash - VebDream Admin",
   description: "Edit portfolio project",
 };
 

@@ -11,7 +11,7 @@ git push origin main
 ## 2️⃣ Render'da PostgreSQL Yaratish
 
 1. [dashboard.render.com](https://dashboard.render.com) → **New** → **PostgreSQL**
-2. Name: `evolvoai-db`
+2. Name: `vebdream-db`
 3. Plan: **Free**
 4. **Create Database**
 5. **Internal Database URL** ni nusxalang (kerak bo'ladi)
@@ -21,7 +21,7 @@ git push origin main
 1. **New** → **Web Service**
 2. GitHub repo tanlang
 3. Sozlamalar:
-   - **Name:** `evolvoai`
+   - **Name:** `vebdream`
    - **Build Command:**
      ```bash
      npm install && npx prisma generate && npm run build

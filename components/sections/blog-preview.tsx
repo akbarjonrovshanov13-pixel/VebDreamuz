@@ -168,7 +168,7 @@ export default function BlogPreviewSection() {
           </Link>
           <p className="mt-4 text-gray-600 dark:text-gray-400">
             Yoki{" "}
-            <Link href="https://t.me/evolvoai" className="text-primary-500 hover:underline">
+            <Link href="https://t.me/vebdream" className="text-primary-500 hover:underline">
               Telegram kanalimizga
             </Link>{" "}
             qo&apos;shiling

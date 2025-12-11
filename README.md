@@ -1,4 +1,4 @@
-# EvolvoAI - AI-Powered Agency Platform
+# VebDream - AI-Powered Agency Platform
 
 Professional web agency platform with automated content generation, Telegram integration, and business automation capabilities.
 
@@ -39,8 +39,8 @@ Professional web agency platform with automated content generation, Telegram int
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/evolvoai.git
-cd evolvoai
+git clone https://github.com/yourusername/vebdream.git
+cd vebdream
 ```
 
 2. **Install dependencies**
@@ -55,7 +55,7 @@ cp .env.example .env
 
 Edit `.env` and add your credentials:
 ```env
-DATABASE_URL="postgresql://user:password@localhost:5432/evolvoai"
+DATABASE_URL="postgresql://user:password@localhost:5432/vebdream"
 GEMINI_API_KEY="your_gemini_api_key"
 TELEGRAM_BOT_TOKEN="your_bot_token"
 TELEGRAM_CHANNEL_ID="@your_channel"
@@ -155,7 +155,7 @@ git push origin main
 3. **Create Web Service**
 - Click "New +" → "Web Service"
 - Connect your GitHub repository
-- **Name**: `evolvoai`
+- **Name**: `vebdream`
 - **Runtime**: `Node.js`
 - **Build Command**: `npm install && npx prisma generate && npm run build`
 - **Start Command**: `npm start`
@@ -190,7 +190,7 @@ NODE_ENV=production
 ```bash
 # In Render dashboard:
 # 1. Go to Databases → New → PostgreSQL
-# 2. Name: evolvoai-db
+# 2. Name: vebdream-db
 # 3. Copy Internal Database URL
 ```
 
@@ -299,9 +299,9 @@ This project is licensed under the MIT License.
 
 ## 📞 Support
 
-- **Website**: [evolvoai.uz](https://evolvoai.uz)
+- **Website**: [vebdream.uz](https://vebdream.uz)
 - **Email**: azizbekboy84@gmail.com
-- **Telegram**: [@evolvoai](https://t.me/evolvoai)
+- **Telegram**: [@vebdream](https://t.me/vebdream)
 - **Phone**: +998 99 644 84 44
 - **Manzil**: Toshkent, Nurafshon aylanma yo'li 12 uy
 
@@ -316,5 +316,5 @@ This project is licensed under the MIT License.
 
 ---
 
-Built with ❤️ by EvolvoAI Team
+Built with ❤️ by VebDream Team
 # Vebdreamuz

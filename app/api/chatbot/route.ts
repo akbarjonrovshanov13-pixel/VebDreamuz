@@ -17,8 +17,8 @@ export async function POST(req: NextRequest) {
     // Gemini AI'dan javob olish
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-    const systemPrompt = `Siz EvolvoAI kompaniyasining yordamchi botisiz. 
-EvolvoAI - bu zamonaviy AI texnologiyalari bilan ishlaydigan dasturiy ta'minot kompaniyasi.
+    const systemPrompt = `Siz VebDream kompaniyasining yordamchi botisiz. 
+VebDream - bu zamonaviy AI texnologiyalari bilan ishlaydigan dasturiy ta'minot kompaniyasi.
 
 Bizning xizmatlarimiz:
 - 🌐 Web Saytlar yaratish (React, Next.js, Node.js)
@@ -37,7 +37,7 @@ Narxlar:
 - Full Web App: 3,000,000 - 15,000,000 so'm
 
 Aloqa:
-- Telegram: @evolvoai_bot
+- Telegram: @vebdream_bot
 - Email: azizbekboy84@gmail.com
 - Telefon: +998 99 644 84 44
 
@@ -59,7 +59,7 @@ O'zbek tilida yozing. Qisqa va tushunarli bo'lsin.`;
     
     // Agar Gemini API ishlamasa, fallback javoblar
     const fallbackResponses = [
-      "Savolingiz uchun rahmat! Telegram bot orqali to'liq ma'lumot olishingiz mumkin: @evolvoai_bot",
+      "Savolingiz uchun rahmat! Telegram bot orqali to'liq ma'lumot olishingiz mumkin: @vebdream_bot",
       "Biz sizga yordam berishga tayyormiz! Telefon: +998 99 644 84 44",
       "Loyihangiz haqida ko'proq ma'lumot uchun Email: azizbekboy84@gmail.com",
     ];

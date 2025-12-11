@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import AdminLayout from "@/components/admin/admin-layout";
 
 export const metadata: Metadata = {
-  title: "Portfolio Kategoriyalar - EvolvoAI Admin",
+  title: "Portfolio Kategoriyalar - VebDream Admin",
   description: "Manage portfolio categories",
 };
 

@@ -3,7 +3,7 @@ import AdminLayout from "@/components/admin/admin-layout";
 import { prisma } from "@/lib/prisma";
 
 export const metadata: Metadata = {
-  title: "Kanal Postlari - EvolvoAI Admin",
+  title: "Kanal Postlari - VebDream Admin",
 };
 
 export const dynamic = 'force-dynamic';

@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "evolvoai",
+      name: "vebdream",
       script: "server.js",
       instances: "max",
       exec_mode: "cluster",

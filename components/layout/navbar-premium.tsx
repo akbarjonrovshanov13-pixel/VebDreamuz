@@ -58,7 +58,7 @@ export default function NavbarPremium() {
               />
             </div>
             <span className="text-2xl font-black">
-              <span className="text-white">Evolvo</span>
+              <span className="text-white">VebDream</span>
               <span className="text-gradient">AI</span>
             </span>
           </Link>

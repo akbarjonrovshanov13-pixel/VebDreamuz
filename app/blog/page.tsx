@@ -4,7 +4,7 @@ import Footer from "@/components/layout/footer";
 import BlogList from "@/components/blog/blog-list";
 
 export const metadata: Metadata = {
-  title: "Blog - EvolvoAI",
+  title: "Blog - VebDream",
   description: "AI va texnologiya bo'yicha so'nggi yangiliklar, maslahatlar va professional maqolalar",
 };
 

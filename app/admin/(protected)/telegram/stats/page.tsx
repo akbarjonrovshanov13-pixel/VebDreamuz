@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import AdminLayout from "@/components/admin/admin-layout";
 
 export const metadata: Metadata = {
-  title: "Telegram Statistika - EvolvoAI Admin",
+  title: "Telegram Statistika - VebDream Admin",
 };
 
 export default function TelegramStatsPage() {

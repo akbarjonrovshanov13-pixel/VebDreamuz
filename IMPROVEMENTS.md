@@ -1,4 +1,4 @@
-# 🚀 EvolvoAI Sayt Yaxshilanishlari
+# 🚀 VebDream Sayt Yaxshilanishlari
 
 ## 🎨 PREMIUM MOBILE-FIRST DIZAYN (NEW!)
 
@@ -280,4 +280,4 @@ Sayt endi:
 
 **Yangilangan:** 2025-10-01  
 **Versiya:** 2.0  
-**Developer:** EvolvoAI Team
+**Developer:** VebDream Team

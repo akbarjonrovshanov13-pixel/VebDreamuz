@@ -1,7 +1,7 @@
 // Service Worker for Push Notifications
-// EvolvoAI - https://evolvoai-ysus.onrender.com
+// VebDream - https://vebdream-ysus.onrender.com
 
-const CACHE_NAME = 'evolvoai-v1';
+const CACHE_NAME = 'vebdream-v1';
 const urlsToCache = [
   '/',
   '/blog',
@@ -64,7 +64,7 @@ self.addEventListener('push', (event) => {
       options.body = data.body || options.body;
       options.data.url = data.url || '/';
       event.waitUntil(
-        self.registration.showNotification(data.title || 'EvolvoAI', options)
+        self.registration.showNotification(data.title || 'VebDream', options)
       );
       return;
     }
@@ -73,7 +73,7 @@ self.addEventListener('push', (event) => {
   }
 
   event.waitUntil(
-    self.registration.showNotification('EvolvoAI - Yangi Post!', options)
+    self.registration.showNotification('VebDream - Yangi Post!', options)
   );
 });
 
@@ -102,4 +102,4 @@ self.addEventListener('notificationclick', (event) => {
   );
 });
 
-console.log('EvolvoAI Service Worker loaded!');
+console.log('VebDream Service Worker loaded!');

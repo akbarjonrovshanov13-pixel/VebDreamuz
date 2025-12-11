@@ -106,12 +106,12 @@ O'zbekistonda ham AI texnologiyalari rivojlanmoqda:
 
 Sun'iy intellekt - bu kelajak emas, bu bugun! AI texnologiyalari bizning hayotimizni tubdan o'zgartirmoqda va bu jarayon faqat tezlashib boradi. 
 
-**EvolvoAI** jamoasi sifatida biz sizga AI yechimlarini biznesingizga integratsiya qilishda yordam beramiz. Biznes jarayonlaringizni avtomatlashtirib, samaradorlikni oshiring!
+**VebDream** jamoasi sifatida biz sizga AI yechimlarini biznesingizga integratsiya qilishda yordam beramiz. Biznes jarayonlaringizni avtomatlashtirib, samaradorlikni oshiring!
 
 ---
 
 📞 **Bepul konsultatsiya uchun biz bilan bog'laning!**`,
-    seoTitle: "Sun'iy Intellekt (AI): Kelajak Texnologiyasi | EvolvoAI",
+    seoTitle: "Sun'iy Intellekt (AI): Kelajak Texnologiyasi | VebDream",
     seoDescription: "Sun'iy intellekt nima? AI qanday ishlaydi va biznesda qanday qo'llaniladi? Machine Learning, Deep Learning va NLP haqida batafsil ma'lumot. O'zbekistonda AI yechimlar.",
     keywords: ["sun'iy intellekt", "AI", "machine learning", "deep learning", "NLP", "biznes avtomatlashtirish", "chatbot", "AI O'zbekiston"],
   },
@@ -328,7 +328,7 @@ Biz O'zbekiston bozoriga moslashgan yechimlar taklif qilamiz:
 
 Biznes avtomatlashtirish - bu kelajakka investitsiya. Bugun avtomatlashtirgan biznes ertaga raqobatda g'olib bo'ladi.
 
-**EvolvoAI** jamoasi sizga:
+**VebDream** jamoasi sizga:
 - 🔍 Biznesingizni tahlil qilamiz
 - 💡 Eng yaxshi yechimni tanlaymiz
 - ⚙️ Integratsiya qilamiz
@@ -338,7 +338,7 @@ Biznes avtomatlashtirish - bu kelajakka investitsiya. Bugun avtomatlashtirgan bi
 ---
 
 📞 **Bepul konsultatsiya uchun bog'laning: +998 90 123 45 67**`,
-    seoTitle: "Biznesni Avtomatlashtirish: To'liq Qo'llanma | EvolvoAI",
+    seoTitle: "Biznesni Avtomatlashtirish: To'liq Qo'llanma | VebDream",
     seoDescription: "Biznes jarayonlarini qanday avtomatlashtirish mumkin? CRM, chatbot, Telegram bot, marketing avtomatlashtirish va boshqa samarali yechimlar. O'zbekiston uchun.",
     keywords: ["biznes avtomatlashtirish", "CRM tizim", "chatbot", "telegram bot", "marketing avtomatlashtirish", "e-commerce", "O'zbekiston"],
   },
@@ -353,7 +353,7 @@ async function createPosts() {
       const post = await prisma.blogPost.create({
         data: {
           ...postData,
-          author: "EvolvoAI Team",
+          author: "VebDream Team",
           readTime: Math.ceil(postData.content.split(" ").length / 200),
           status: "PUBLISHED",
         },

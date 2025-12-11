@@ -21,8 +21,8 @@ Unsplash API blog postlar uchun **professional, unique va bepul** rasmlar taqdim
 2. **Sign up/Login** qiling
 3. **"New Application"** bosing
 4. **Form to'ldiring:**
-   - Application name: `EvolvoAI Blog`
-   - Description: `Blog post images for EvolvoAI website`
+   - Application name: `VebDream Blog`
+   - Description: `Blog post images for VebDream website`
    - Accept terms & conditions
 
 ### 2. Access Key Olish

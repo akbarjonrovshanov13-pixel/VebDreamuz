@@ -17,17 +17,17 @@ async function main() {
     const settings = [
       {
         key: "site_name",
-        value: "EvolvoAI",
+        value: "VebDream",
         description: "Website name",
       },
       {
         key: "contact_email",
-        value: "info@evolvoai.uz",
+        value: "info@vebdream.uz",
         description: "Contact email address",
       },
       {
         key: "telegram_channel",
-        value: "@evolvoai",
+        value: "@vebdream",
         description: "Telegram channel username",
       },
       {

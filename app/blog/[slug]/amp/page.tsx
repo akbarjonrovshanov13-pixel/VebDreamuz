@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   return {
-    title: `${post.title} | EvolvoAI AMP`,
+    title: `${post.title} | VebDream AMP`,
     description: post.seoDescription,
   };
 }
@@ -32,7 +32,7 @@ export default async function AMPBlogPage({ params }: PageProps) {
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://evolvoai-ysus.onrender.com";
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "https://vebdream-ysus.onrender.com";
 
   // AMP HTML - simplified, fast-loading version
   const ampHtml = `
@@ -41,7 +41,7 @@ export default async function AMPBlogPage({ params }: PageProps) {
 <head>
   <meta charset="utf-8">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <title>${post.title} | EvolvoAI</title>
+  <title>${post.title} | VebDream</title>
   <link rel="canonical" href="${baseUrl}/blog/${post.slug}">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="description" content="${post.seoDescription}">
@@ -162,7 +162,7 @@ export default async function AMPBlogPage({ params }: PageProps) {
     "datePublished": "${post.publishDate.toISOString()}",
     "author": {
       "@type": "Organization",
-      "name": "EvolvoAI"
+      "name": "VebDream"
     }
   }
   </script>
@@ -170,7 +170,7 @@ export default async function AMPBlogPage({ params }: PageProps) {
 <body>
   <div class="container">
     <header>
-      <a href="${baseUrl}" class="logo">⚡ EvolvoAI</a>
+      <a href="${baseUrl}" class="logo">⚡ VebDream</a>
     </header>
 
     <article>
@@ -197,12 +197,12 @@ export default async function AMPBlogPage({ params }: PageProps) {
       <div class="cta">
         <h3>🔔 Yangi maqolalar haqida xabardor bo'ling!</h3>
         <p>Telegram kanalimizga obuna bo'ling</p>
-        <a href="https://t.me/evolvoaichannel" class="btn">📲 Obuna bo'lish</a>
+        <a href="https://t.me/vebdreamchannel" class="btn">📲 Obuna bo'lish</a>
       </div>
     </article>
 
     <footer>
-      <p>© 2025 EvolvoAI. Barcha huquqlar himoyalangan.</p>
+      <p>© 2025 VebDream. Barcha huquqlar himoyalangan.</p>
       <p><a href="${baseUrl}/blog/${post.slug}">To'liq versiyani ko'rish →</a></p>
     </footer>
   </div>

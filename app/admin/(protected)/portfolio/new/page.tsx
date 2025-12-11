@@ -3,7 +3,7 @@ import AdminLayout from "@/components/admin/admin-layout";
 import PortfolioEditor from "@/components/admin/portfolio/portfolio-editor";
 
 export const metadata: Metadata = {
-  title: "Yangi Loyiha - EvolvoAI Admin",
+  title: "Yangi Loyiha - VebDream Admin",
   description: "Create new portfolio project",
 };
 

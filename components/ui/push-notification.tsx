@@ -166,7 +166,7 @@ export function PushNotificationBanner() {
     }
   };
 
-  if (!isSupported || !isVisible) return null;
+  if (!isSupported || !isVisible || !VAPID_PUBLIC_KEY) return null;
 
   return (
     <div className="fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:w-96 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-2xl p-4 shadow-2xl z-50 animate-slide-up">

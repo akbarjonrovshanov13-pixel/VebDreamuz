@@ -55,10 +55,10 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 ## Xulosa
 
 Bu mavzu bo'yicha batafsil ma'lumotlar va professional maslahatlar.`,
-          seoTitle: postData.title + " - EvolvoAI",
+          seoTitle: postData.title + " - VebDream",
           seoDescription: postData.excerpt,
-          keywords: postData.category.toLowerCase().split(" ").concat(["evolvoai", "blog"]),
-          author: "EvolvoAI Team",
+          keywords: postData.category.toLowerCase().split(" ").concat(["vebdream", "blog"]),
+          author: "VebDream Team",
           readTime: 6,
           status: "PUBLISHED",
         },

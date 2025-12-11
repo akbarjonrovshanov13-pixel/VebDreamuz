@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     if (!post) {
       return {
-        title: "Post Not Found - EvolvoAI",
+        title: "Post Not Found - VebDream",
       };
     }
 
@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   } catch (error) {
     console.error("Error fetching post metadata:", error);
     return {
-      title: "Blog - EvolvoAI",
+      title: "Blog - VebDream",
     };
   }
 }
@@ -94,7 +94,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       publishDate: new Date(),
       readTime: 5,
       views: 120,
-      author: "EvolvoAI Team",
+      author: "VebDream Team",
       seoTitle: "AI Chatbotlar: Biznesingiz Uchun Kelajak",
       seoDescription: "AI chatbotlar biznesingizni qanday rivojlantirishi haqida to'liq ma'lumot",
       keywords: ["AI", "Chatbot", "Biznes", "Avtomatlashtirish"],

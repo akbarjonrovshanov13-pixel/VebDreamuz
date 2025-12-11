@@ -32,11 +32,11 @@ AI hozirda ko'plab sohalarda qo'llanilmoqda:
 ## Kelajak
 
 Sun'iy intellekt texnologiyalari yana ham rivojlanib, bizning hayotimizni yanada osonlashtiradi.`,
-        seoTitle: "Sun'iy Intellekt: Kelajak Texnologiyasi - EvolvoAI",
+        seoTitle: "Sun'iy Intellekt: Kelajak Texnologiyasi - VebDream",
         seoDescription: "Sun'iy intellekt zamonaviy dunyoning eng muhim texnologiyalaridan biri. AI ning imkoniyatlari va kelajagi haqida batafsil ma'lumot.",
         keywords: ["ai", "sun'iy intellekt", "texnologiya", "machine learning", "deep learning"],
         imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop",
-        author: "EvolvoAI Team",
+        author: "VebDream Team",
         readTime: 5,
         status: "PUBLISHED",
       },

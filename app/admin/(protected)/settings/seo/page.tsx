@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import AdminLayout from "@/components/admin/admin-layout";
 
 export const metadata: Metadata = {
-  title: "SEO Settings - EvolvoAI Admin",
+  title: "SEO Settings - VebDream Admin",
 };
 
 export default function SEOSettingsPage() {

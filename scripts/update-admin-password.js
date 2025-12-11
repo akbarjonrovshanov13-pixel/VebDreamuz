@@ -6,7 +6,7 @@ const prisma = new PrismaClient();
 async function main() {
   console.log("🔐 Admin parolni yangilash...\n");
 
-  const email = "admin@evolvoai.uz";
+  const email = "admin@vebdream.uz";
   const newPassword = "GisoBot#201415!"; // YANGI PAROLNI SHU YERGA YOZING!
 
   // Find user

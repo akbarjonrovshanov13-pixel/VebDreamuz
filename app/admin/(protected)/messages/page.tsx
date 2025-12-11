@@ -4,7 +4,7 @@ import { prisma } from "@/lib/prisma";
 import { Mail, Phone, Clock, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Xabarlar - EvolvoAI Admin",
+  title: "Xabarlar - VebDream Admin",
   description: "Mijozlar xabarlari",
 };
 

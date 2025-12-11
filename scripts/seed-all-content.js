@@ -31,8 +31,8 @@ Kompyuterlarga inson tilini tushunish va qayta ishlash imkonini beradi.
 - **Ta'lim**: Shaxsiylashtirilgan o'qitish
 - **Transport**: Avtopilot tizimlari
 
-**EvolvoAI** jamoasi sifatida biz sizga AI yechimlarini biznesingizga integratsiya qilishda yordam beramiz!`,
-    seoTitle: "Sun'iy Intellekt (AI): Kelajak Texnologiyasi | EvolvoAI",
+**VebDream** jamoasi sifatida biz sizga AI yechimlarini biznesingizga integratsiya qilishda yordam beramiz!`,
+    seoTitle: "Sun'iy Intellekt (AI): Kelajak Texnologiyasi | VebDream",
     seoDescription: "Sun'iy intellekt nima? AI qanday ishlaydi va biznesda qanday qo'llaniladi? Machine Learning va Deep Learning haqida ma'lumot.",
     keywords: ["sun'iy intellekt", "AI", "machine learning", "deep learning", "NLP", "AI O'zbekiston"],
   },
@@ -62,8 +62,8 @@ Mijozlar bilan barcha munosabatlarni boshqarish.
 ### 4. Telegram Bot
 Biznes jarayonlarini Telegram orqali boshqarish.
 
-**EvolvoAI** sizga biznes jarayonlaringizni avtomatlashtirishda yordam beradi!`,
-    seoTitle: "Biznesni Avtomatlashtirish: To'liq Qo'llanma | EvolvoAI",
+**VebDream** sizga biznes jarayonlaringizni avtomatlashtirishda yordam beradi!`,
+    seoTitle: "Biznesni Avtomatlashtirish: To'liq Qo'llanma | VebDream",
     seoDescription: "Biznes jarayonlarini qanday avtomatlashtirish mumkin? CRM, chatbot, Telegram bot va marketing avtomatlashtirish yechimlar.",
     keywords: ["biznes avtomatlashtirish", "CRM", "chatbot", "telegram bot", "marketing"],
   },
@@ -84,8 +84,8 @@ Next.js - React asosidagi eng mashhur framework.
 - **Easy Routing**: File-based routing system
 - **API Routes**: Backend logic in the same project
 
-**EvolvoAI** Next.js yordamida professional web saytlar yaratadi!`,
-    seoTitle: "Next.js: Zamonaviy Web Sayt Yaratish | EvolvoAI",
+**VebDream** Next.js yordamida professional web saytlar yaratadi!`,
+    seoTitle: "Next.js: Zamonaviy Web Sayt Yaratish | VebDream",
     seoDescription: "Next.js framework bilan SEO-optimallashtirilgan, tez va zamonaviy web saytlar yaratish. Server-side rendering va API routes.",
     keywords: ["Next.js", "web development", "React", "SSR", "SEO", "O'zbekiston"],
   },
@@ -112,8 +112,8 @@ Telegram - O'zbekistonda eng mashhur messenger. Bot orqali biznesingizni avtomat
 - FAQ javoblari
 - Murojaatlarni qabul qilish
 
-**EvolvoAI** sizga professional Telegram bot yaratib beradi!`,
-    seoTitle: "Telegram Bot Yaratish: Biznes Avtomatlashtirish | EvolvoAI",
+**VebDream** sizga professional Telegram bot yaratib beradi!`,
+    seoTitle: "Telegram Bot Yaratish: Biznes Avtomatlashtirish | VebDream",
     seoDescription: "Telegram bot orqali savdo, xizmat va mijozlar bilan aloqani avtomatlashtiring. Click/Payme integratsiya, katalog va buyurtma tizimi.",
     keywords: ["telegram bot", "biznes bot", "click payme", "avtomatlashtirish", "O'zbekiston"],
   },
@@ -141,8 +141,8 @@ SEO (Search Engine Optimization) - bu saytingizni qidiruv tizimlarida yuqori o'r
 - **HTTPS**: Xavfsiz ulanish
 - **Sitemap**: XML sitemap
 
-**EvolvoAI** saytingizni SEO bo'yicha to'liq optimallashtirisadi!`,
-    seoTitle: "SEO Optimizatsiya: Google'da TOP ga Chiqish | EvolvoAI",
+**VebDream** saytingizni SEO bo'yicha to'liq optimallashtirisadi!`,
+    seoTitle: "SEO Optimizatsiya: Google'da TOP ga Chiqish | VebDream",
     seoDescription: "Professional SEO xizmatlari. On-page, technical va off-page SEO. Saytingizni Google'da yuqori o'rinlarga chiqaring.",
     keywords: ["SEO", "SEO optimizatsiya", "Google", "qidiruv tizimi", "O'zbekiston SEO"],
   },
@@ -168,8 +168,8 @@ Mobil ilovalar - bu zamonaviy biznesning muhim qismi.
 - Beautiful UI
 - High performance
 
-**EvolvoAI** professional mobil ilovalar yaratadi!`,
-    seoTitle: "Mobil Ilova Yaratish: iOS va Android | EvolvoAI",
+**VebDream** professional mobil ilovalar yaratadi!`,
+    seoTitle: "Mobil Ilova Yaratish: iOS va Android | VebDream",
     seoDescription: "Professional mobil ilovalar yaratish xizmati. React Native va Flutter. E-commerce, xizmatlar va ijtimoiy ilovalar.",
     keywords: ["mobil ilova", "React Native", "Flutter", "iOS", "Android", "O'zbekiston"],
   },
@@ -194,8 +194,8 @@ AI chatbotlar - bu mijozlar bilan muloqotni yangi bosqichga olib chiqadi.
 - Buyurtma qabul qilish
 - Ma'lumot to'plash
 
-**EvolvoAI** GPT-4 asosida professional chatbotlar yaratadi!`,
-    seoTitle: "AI Chatbot va ChatGPT: Biznes Uchun | EvolvoAI",
+**VebDream** GPT-4 asosida professional chatbotlar yaratadi!`,
+    seoTitle: "AI Chatbot va ChatGPT: Biznes Uchun | VebDream",
     seoDescription: "GPT-4 asosida aqlli chatbotlar. 24/7 mijozlar bilan suhbat, avtomatik javoblar, CRM integratsiya.",
     keywords: ["AI chatbot", "ChatGPT", "GPT-4", "aqlli bot", "biznes avtomatlashtirish"],
   },
@@ -221,8 +221,8 @@ Yaxshi dizayn - bu shunchaki chiroyli emas, bu samarali!
 - Navigatsiya
 - Oson foydalanish
 
-**EvolvoAI** professional UI/UX dizayn xizmatlari!`,
-    seoTitle: "UI/UX Dizayn Xizmatlari: Professional Interfeys | EvolvoAI",
+**VebDream** professional UI/UX dizayn xizmatlari!`,
+    seoTitle: "UI/UX Dizayn Xizmatlari: Professional Interfeys | VebDream",
     seoDescription: "Modern UI/UX dizayn. Foydalanuvchilarga yoqadigan, samarali va chiroyli interfeys yaratish.",
     keywords: ["UI dizayn", "UX dizayn", "interfeys", "dizayn", "O'zbekiston"],
   },
@@ -236,7 +236,7 @@ const projects = [
     category: "Web Development",
     tags: ["Next.js", "E-commerce", "Click", "Payme", "Telegram Bot"],
     imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&h=800&fit=crop",
-    demoUrl: "https://evolvoai.uz",
+    demoUrl: "https://vebdream.uz",
     technologies: ["Next.js 14", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
     clientName: "Fashion Store UZ",
     featured: true,
@@ -320,7 +320,7 @@ async function seedContent() {
       const created = await prisma.blogPost.create({
         data: {
           ...post,
-          author: "EvolvoAI Team",
+          author: "VebDream Team",
           readTime: Math.ceil(post.content.split(" ").length / 200),
           status: "PUBLISHED",
         },

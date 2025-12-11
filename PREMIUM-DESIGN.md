@@ -2,7 +2,7 @@
 
 ## "Digital Luxury Meets AI Innovation"
 
-EvolvoAI sayti uchun Instagram, Notion, Linear kabi zamonaviy professional ilovalardek immersive experience yaratildi.
+VebDream sayti uchun Instagram, Notion, Linear kabi zamonaviy professional ilovalardek immersive experience yaratildi.
 
 ---
 
@@ -362,6 +362,6 @@ Bento grid: `grid-template-columns` va `grid-template-rows` ni sozlang
 
 **Yaratildi:** 2025-10-01  
 **Versiya:** 1.0 Premium  
-**Muallif:** EvolvoAI Team
+**Muallif:** VebDream Team
 
 **Dizayn inspiratsiya:** Instagram, Notion, Linear, Apple

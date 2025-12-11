@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Globe, TrendingUp, Sparkles, UserCog } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Sozlamalar - EvolvoAI Admin",
+  title: "Sozlamalar - VebDream Admin",
   description: "System settings",
 };
 

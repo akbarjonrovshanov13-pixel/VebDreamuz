@@ -4,7 +4,7 @@ import { prisma } from "@/lib/prisma";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "Kontakt Xabarlar - EvolvoAI Admin",
+  title: "Kontakt Xabarlar - VebDream Admin",
   description: "Contact form messages",
 };
 

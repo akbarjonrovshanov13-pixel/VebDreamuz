@@ -1,4 +1,4 @@
-# EvolvoAI - Deploy Qo'llanmasi
+# VebDream - Deploy Qo'llanmasi
 
 ## 🚀 Render.com Deploy (Tavsiya etiladi)
 
@@ -8,9 +8,9 @@
 ```bash
 git init
 git add .
-git commit -m "Birinchi commit: EvolvoAI platformasi"
+git commit -m "Birinchi commit: VebDream platformasi"
 git branch -M main
-git remote add origin https://github.com/username/evolvoai.git
+git remote add origin https://github.com/username/vebdream.git
 git push -u origin main
 ```
 
@@ -20,11 +20,11 @@ git push -u origin main
 
 3. **Web Service yaratish**
 - "New +" → "Web Service" ni bosing
-- GitHub repositoriyangizni tanlang (azizbekboy84-beep/EvolvoAI)
+- GitHub repositoriyangizni tanlang (azizbekboy84-beep/VebDream)
 - Quyidagi sozlamalarni kiriting:
 
 **Build Settings:**
-- **Name**: evolvoai (yoki o'zingiz xohlagan nom)
+- **Name**: vebdream (yoki o'zingiz xohlagan nom)
 - **Region**: Singapore (yoki yaqin region)
 - **Branch**: main
 - **Root Directory**: (bo'sh qoldiring)
@@ -43,8 +43,8 @@ TELEGRAM_BOT_TOKEN=sizning_telegram_bot_tokeningiz
 TELEGRAM_CHANNEL_ID=@sizning_kanal_idingiz
 TELEGRAM_ADMIN_ID=sizning_telegram_idingiz
 NEXTAUTH_SECRET=tasodifiy_32_belgili_string
-NEXTAUTH_URL=https://evolvoai.onrender.com
-NEXT_PUBLIC_APP_URL=https://evolvoai.onrender.com
+NEXTAUTH_URL=https://vebdream.onrender.com
+NEXT_PUBLIC_APP_URL=https://vebdream.onrender.com
 CRON_SECRET=tasodifiy_string
 ```
 
@@ -63,9 +63,9 @@ CRON_SECRET=tasodifiy_string
 1. **PostgreSQL Database yaratish:**
    - Render dashboard'da "New +" → "PostgreSQL"
    - Quyidagi sozlamalar:
-     - **Name**: evolvoai-db
-     - **Database**: evolvoai
-     - **User**: evolvoai_user
+     - **Name**: vebdream-db
+     - **Database**: vebdream
+     - **User**: vebdream_user
      - **Region**: Singapore (Web Service bilan bir xil)
      - **Plan**: Free
    - "Create Database" bosing
@@ -86,7 +86,7 @@ CRON_SECRET=tasodifiy_string
 ### Domen sozlash
 
 1. Render dashboard'da "Settings" → "Custom Domains"
-2. O'zingizning domeningizni qo'shing (masalan: `evolvoai.uz`)
+2. O'zingizning domeningizni qo'shing (masalan: `vebdream.uz`)
 3. DNS sozlamalarini yangilang
 4. SSL avtomatik sozlanadi
 
@@ -236,7 +236,7 @@ railway up
 
 Muammo yuzaga kelsa:
 - Render logs: Dashboard → Service → Logs
-- Telegram support: @evolvoaiuz_bot
+- Telegram support: @vebdreamuz_bot
 - Email: azizbekboy84@gmail.com
 - Telefon: +998 99 644 84 44
 - Manzil: Toshkent, Nurafshon aylanma yo'li 12 uy

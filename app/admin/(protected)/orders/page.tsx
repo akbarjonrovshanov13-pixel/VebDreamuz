@@ -4,7 +4,7 @@ import { prisma } from "@/lib/prisma";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "Buyurtmalar - EvolvoAI Admin",
+  title: "Buyurtmalar - VebDream Admin",
   description: "Manage orders",
 };
 
